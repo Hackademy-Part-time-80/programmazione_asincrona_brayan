@@ -1,0 +1,142 @@
+[
+    {
+        "title": "Giacca di pelle vintage nera",
+        "category": "Abbigliamento",
+        "price": 85.00,
+        "description": "Giacca di pelle autentica, stile vintage anni '90. Colore nero, taglia M. Ottime condizioni generali, piccoli segni di usura che aumentano il fascino retrò.",
+        "image": "https://picsum.photos/seed/product-1/400/300"
+    },
+    {
+        "title": "Scarpe da ginnastica Nike Air Max",
+        "category": "Abbigliamento",
+        "price": 120.00,
+        "description": "Scarpe Nike originali, modello Air Max, colore bianco e blu. Numero 42. Indossate pochissime volte, praticamente nuove e complete di scatola originale.",
+        "image": "https://picsum.photos/seed/product-2/400/300"
+    },
+    {
+        "title": "Il Signore degli Anelli - Trilogia Completa",
+        "category": "Libri",
+        "price": 25.50,
+        "description": "Edizione speciale illustrata della trilogia completa di J.R.R. Tolkien. Copertina rigida con sovraccoperta, condizioni perfette, nessun segno o pagina spiegata.",
+        "image": "https://picsum.photos/seed/product-3/400/300"
+    },
+    {
+        "title": "Manuale di PHP e Laravel moderno",
+        "category": "Libri",
+        "price": 42.00,
+        "description": "Libro per sviluppatori web. Spiega nel dettaglio l'architettura di Laravel, i design pattern e le best practice per creare codice pulito. Edizione 2025.",
+        "image": "https://picsum.photos/seed/product-4/400/300"
+    },
+    {
+        "title": "Set di chiavi a bussola professionali (45 pezzi)",
+        "category": "Utensili",
+        "price": 65.00,
+        "description": "Valigetta completa di chiavi a bussola in acciaio al cromo vanadio. Include cricchetto reversibile e prolunghe. Ideale per officina e fai da te.",
+        "image": "https://picsum.photos/seed/product-5/400/300"
+    },
+    {
+        "title": "Trapano avvitatore a batteria 18V",
+        "category": "Utensili",
+        "price": 89.99,
+        "description": "Trapano potente con doppia batteria al litio inclusa nella confezione. Regolazione della coppia di serraggio e luce LED integrata per lavori di precisione.",
+        "image": "https://picsum.photos/seed/product-6/400/300"
+    },
+    {
+        "title": "Lego Star Wars Millennium Falcon",
+        "category": "Giochi",
+        "price": 149.00,
+        "description": "Set Lego completo di tutti i pezzi e personaggi originali. Scatola originale inclusa. Già montato una volta ed esposto in vetrina, come nuovo.",
+        "image": "https://picsum.photos/seed/product-7/400/300"
+    },
+    {
+        "title": "Gioco da tavolo Dixit - Edizione Italiana",
+        "category": "Giochi",
+        "price": 28.00,
+        "description": "Il famoso gioco di carte e immaginazione. Edizione completamente in italiano, carte tenute sempre nelle bustine protettive. Perfetto per serate in famiglia.",
+        "image": "https://picsum.photos/seed/product-8/400/300"
+    },
+    {
+        "title": "Siero viso all'acido ialuronico puro",
+        "category": "Cosmetici",
+        "price": 19.50,
+        "description": "Idratazione profonda per tutti i tipi di pelle. Flacone da 50ml con contagocce, sigillato e mai aperto. Scadenza a lungo termine.",
+        "image": "https://picsum.photos/seed/product-9/400/300"
+    },
+    {
+        "title": "Piastra per capelli professionale in ceramica",
+        "category": "Cosmetici",
+        "price": 55.00,
+        "description": "Piastra con tecnologia a ioni per ridurre l'effetto crespo. Temperatura regolabile fino a 230 gradi. Cavo girevole molto comodo.",
+        "image": "https://picsum.photos/seed/product-10/400/300"
+    },
+    {
+        "title": "Divano letto a 3 posti grigio tessuto",
+        "category": "Arredo",
+        "price": 240.00,
+        "description": "Divano moderno colore grigio antracite, trasformabile in letto matrimoniale in pochi secondi. Struttura solida e cuscini sfoderabili.",
+        "image": "https://picsum.photos/seed/product-11/400/300"
+    },
+    {
+        "title": "Lampada da tavolo di design in metallo",
+        "category": "Arredo",
+        "price": 35.00,
+        "description": "Lampada stile industriale colore nero opaco. Perfetta per comodino o scrivania da studio. Lampadina LED a luce calda inclusa.",
+        "image": "https://picsum.photos/seed/product-12/400/300"
+    },
+    {
+        "title": "Monitor PC Gaming 27 pollici 144Hz",
+        "category": "Tech",
+        "price": 185.00,
+        "description": "Monitor curvo con risoluzione Full HD, tempo di risposta 1ms. Supporta FreeSync. Ottimo per sessioni di gioco fluide senza rallentamenti.",
+        "image": "https://picsum.photos/seed/product-13/400/300"
+    },
+    {
+        "title": "Tastiera meccanica RGB wireless",
+        "category": "Tech",
+        "price": 75.00,
+        "description": "Tastiera layout italiano con switch rossi silenziosi. Retroilluminazione personalizzabile tramite software. Connessione bluetooth stabile.",
+        "image": "https://picsum.photos/seed/product-14/400/300"
+    },
+    {
+        "title": "Chitarra acustica Yamaha con custodia",
+        "category": "Musica e Video",
+        "price": 130.00,
+        "description": "Ottima chitarra per iniziare a suonare o per livello intermedio. Suono caldo e ottima accordatura. Regalo custodia morbida per il trasporto.",
+        "image": "https://picsum.photos/seed/product-15/400/300"
+    },
+    {
+        "title": "Giradischi vinili vintage con bluetooth",
+        "category": "Musica e Video",
+        "price": 95.00,
+        "description": "Giradischi a tre velocità (33, 45, 78 giri) con casse integrate. Consente anche di riprodurre musica dallo smartphone tramite connessione wireless.",
+        "image": "https://picsum.photos/seed/product-16/400/300"
+    },
+    {
+        "title": "Aspirapolvere ciclonico senza filo",
+        "category": "Prodotti per Pulizia",
+        "price": 115.00,
+        "description": "Scopa elettrica potente e leggera, batteria ricaricabile a lunga durata. Include accessori per la pulizia di divani e angoli difficili.",
+        "image": "https://picsum.photos/seed/product-17/400/300"
+    },
+    {
+        "title": "Set panni in microfibra alta qualità",
+        "category": "Prodotti per Pulizia",
+        "price": 12.90,
+        "description": "Pacco da 12 panni ultra assorbenti per vetri, cucina e auto. Puliscono senza graffiare e si possono lavare comodamente in lavatrice.",
+        "image": "https://picsum.photos/seed/product-18/400/300"
+    },
+    {
+        "title": "Bicicletta da città uomo/donna nera",
+        "category": "Altro",
+        "price": 90.00,
+        "description": "Bici da passeggio usata ma perfettamente funzionante. Freni appena revisionati, luci funzionanti e comodo cestino anteriore incluso.",
+        "image": "https://picsum.photos/seed/product-19/400/300"
+    },
+    {
+        "title": "Valigia trolley grande rigida samsonite",
+        "category": "Altro",
+        "price": 110.00,
+        "description": "Trolley da stiva ultra resistente con chiusura TSA a combinazione. Quattro ruote multidirezionali silenziose. Usata per un solo viaggio.",
+        "image": "https://picsum.photos/seed/product-20/400/300"
+    }
+]

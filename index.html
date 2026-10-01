@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <title>Prodotti</title>
+  <style>
+    .grid-wrap {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+    }
+
+    #loading,
+    #btnGetProducts {
+      margin-bottom: 32px;
+    }
+    h2{
+        font-size: 1rem;
+    }
+
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <h1>Prodotti</h1>
+    <button id="btnGetProducts">Mostrare i prodotti</button>
+    <div class="grid-wrap" id="mainContainer">
+    </div>
+  </main>
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
