@@ -1,72 +1,73 @@
-import getProducts from "./module.js";
+import getData from "./module.js";
 
 const mainContainer = document.getElementById("mainContainer");
 const btnGetProducts = document.getElementById("btnGetProducts");
 
-btnGetProducts.addEventListener("click", () => {
-    generateLoading();
-    destructProducts();
-    getProducts().
-        then((products) => new Promise((resolve) => {
-            setTimeout(() => {
-                resolve(products);
-            }, 2000);
-        }))
-        .then((products) => {
-            generateProducts(products);
-        })
+btnGetProducts.addEventListener("click", async () => {
+  generateLoading();
+  destructProducts();
+
+  const response = await getData();
+  const products = await new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(response);
+    }, 1500);
+  });
+
+  generateProducts(products);
+
 });
 
 
 const destructLoading = () => {
-    if (document.getElementById("loading")) {
-        mainContainer.removeChild(document.getElementById("loading"));
-    }
+  if (document.getElementById("loading")) {
+    mainContainer.removeChild(document.getElementById("loading"));
+  }
 }
 
 const generateLoading = () => {
-    destructLoading();
-    const divLoading = document.createElement("div");
-    divLoading.id = "loading";
-    divLoading.setAttribute("aria-busy", "true");
-    divLoading.textContent = "Generando i prodotti...";
-    mainContainer.appendChild(divLoading);
+  destructLoading();
+  const divLoading = document.createElement("div");
+  divLoading.id = "loading";
+  divLoading.setAttribute("aria-busy", "true");
+  divLoading.textContent = "Generando i prodotti...";
+  mainContainer.appendChild(divLoading);
 }
 
 
 
 const generateProducts = (products) => {
-    destructLoading();
-    destructProducts();
-    products.forEach(product => {
-        const divProduct = document.createElement("article");
-       
-        const h2Product = document.createElement("h2");
-        h2Product.textContent = product.title;
-        divProduct.appendChild(h2Product);
-       
-        const imgProduct = document.createElement("img");
-        imgProduct.src = product.image;
-        imgProduct.alt = product.title;
-        divProduct.appendChild(imgProduct);
+  destructLoading();
+  destructProducts();
+  products.forEach(product => {
+    const divProduct = document.createElement("article");
 
-        const pProduct = document.createElement("p");
-        pProduct.textContent = product.description;
-        divProduct.appendChild(pProduct);
+    const h2Product = document.createElement("h2");
+    h2Product.textContent = product.title;
+    divProduct.appendChild(h2Product);
 
-        const spanProduct = document.createElement("span");
-        spanProduct.textContent = '€ ' + product.price;
-        spanProduct.style.fontWeight = 'bold';
-        divProduct.appendChild(spanProduct);
+    const imgProduct = document.createElement("img");
+    imgProduct.src = product.image;
+    imgProduct.alt = product.title;
+    divProduct.appendChild(imgProduct);
 
-        mainContainer.appendChild(divProduct);
-    });
+    const pProduct = document.createElement("p");
+    pProduct.textContent = product.description;
+    divProduct.appendChild(pProduct);
+
+    const spanProduct = document.createElement("span");
+    spanProduct.textContent = '€ ' + product.price;
+    spanProduct.style.fontWeight = 'bold';
+    divProduct.appendChild(spanProduct);
+
+    mainContainer.appendChild(divProduct);
+  });
 }
 
-const destructProducts = () =>{
-    const cardProducts = document.querySelectorAll('article');
-    cardProducts.forEach(card => {
-        mainContainer.removeChild(card);
-    });
-   
+const destructProducts = () => {
+  const cardProducts = document.querySelectorAll('article');
+  cardProducts.forEach(card => {
+    mainContainer.removeChild(card);
+  });
+
 }
